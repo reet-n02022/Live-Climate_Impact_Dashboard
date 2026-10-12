@@ -2,3 +2,6 @@
 climate.db
 .ipynb_checkpoints/
 anaconda_projects/
+.virtual_documents/
+run_log.txt
+weather_data.csv
