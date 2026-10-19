@@ -42,6 +42,8 @@ df = df.drop(columns="dt")
 
 conn = sqlite3.connect("climate.db")
 df.to_sql("weather", conn, if_exists="append", index=False)
+weather_data = pd.read_sql("SELECT * FROM weather ORDER BY timestamp_utc",conn)
+weather_data.to_csv("weather_data.csv",index = False)
 conn.close()
 
 print("Saved", len(df), "rows")
