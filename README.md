@@ -2,7 +2,9 @@
 
 An automated pipeline that collects weather data for five Indian cities, cleans and stores it in a database, and shows it in an interactive Power BI dashboard.
 
-![Dashboard](images/dashboard.png)
+## Dashboard preview
+
+![Dashboard](Images/dashboard.png)
 
 ## What it does
 
@@ -24,6 +26,5 @@ Python, pandas, requests, SQLite, Power BI, Windows Task Scheduler
 
 ## Limitations and future work
 
-- Power BI Desktop is refreshed manually from the latest CSV
-- Air quality (AQI), forecasting and more cities are planned
-- NASA POWER data could be added for historical data
+- Air quality (AQI), forecasting and more cities are planned.
+- NASA POWER data could be added for historical data.
